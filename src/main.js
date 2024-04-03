@@ -91,11 +91,11 @@ form.addEventListener('submit', async e => {
         position: 'topRight',
         color: 'red',
       });
-      checkBtnStatus();
+    
     } else {
       gallery.insertAdjacentHTML('beforeend', markup);
       lightbox.refresh();
-      checkBtnStatus();
+       checkBtnStatus();
     }
   } catch (error) {
     iziToast.error({
